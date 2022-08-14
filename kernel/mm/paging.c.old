@@ -1,0 +1,29 @@
+#include <kernel/paging.h>
+#include <stdint.h>
+#include <stdio.h>
+
+uint64_t pagie_directory_ptr_tab[4]
+__attribute__
+
+extern void loadPageDirectory(unsigned int*);
+extern void enablePaging();
+
+void paging_init() {
+    for(uint16_t i = 0; i < 1024; i++) {
+        page_directory[i] = 0x00000002; // Kernel-mode(supervisor), write enabled, not present
+    }
+
+    for(uint16_t i = 0; i < 1024; i++) {
+        first_page_table[i] = (i * 0x1000) | 3; // kernel mode, write enabled, present
+    }
+
+    page_directory[0] = ((uint64_t)first_page_table ) | 3; // kernel mode, write enabled, present
+
+    /*
+    sprintf("About to load page directory\r\n");
+    loadPageDirectory(page_directory);
+    sprintf("Loaded page directory\r\n");
+    enablePaging();
+    sprintf("Enabled paging\r\n\r\n");
+    */
+}

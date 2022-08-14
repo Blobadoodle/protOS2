@@ -1,0 +1,67 @@
+Found 1 terminal(s).
+TTY Initialized
+
+GDT 0(Base: 0x0 Limit: 0x0 Flag: 0x0 Offset: 0x0) = 0x0
+GDT 1(Base: 0x0 Limit: 0xffff Flag: 0x809a Offset: 0x8) = 0x809a000000ffff
+GDT 2(Base: 0x0 Limit: 0xffff Flag: 0x8092 Offset: 0x10) = 0x8092000000ffff
+GDT 3(Base: 0x0 Limit: 0xffffffff Flag: 0xc09a Offset: 0x18) = 0xcf9a000000ffff
+GDT 4(Base: 0x0 Limit: 0xffffffff Flag: 0xc092 Offset: 0x20) = 0xcf92000000ffff
+GDT 5(Base: 0x0 Limit: 0x0 Flag: 0xa09a Offset: 0x28) = 0xa09a0000000000
+GDT 6(Base: 0x0 Limit: 0x0 Flag: 0xa092 Offset: 0x30) = 0xa0920000000000
+GDT Installed (Limit: 0x37 Base: 0xffffffff800041c0)
+
+IDT 0(0xffffffff80001250)
+IDT 1(0xffffffff8000125c)
+IDT 2(0xffffffff80001268)
+IDT 3(0xffffffff80001274)
+IDT 4(0xffffffff80001280)
+IDT 5(0xffffffff8000128c)
+IDT 6(0xffffffff80001298)
+IDT 7(0xffffffff800012a4)
+IDT 8(0xffffffff800012b0)
+IDT 9(0xffffffff800012bc)
+IDT 10(0xffffffff800012c8)
+IDT 11(0xffffffff800012d4)
+IDT 12(0xffffffff800012e0)
+IDT 13(0xffffffff800012ec)
+IDT 14(0xffffffff800012f8)
+IDT 15(0xffffffff80001304)
+IDT 16(0xffffffff80001310)
+IDT 17(0xffffffff8000131c)
+IDT 18(0xffffffff80001328)
+IDT 19(0xffffffff80001334)
+IDT 20(0xffffffff80001340)
+IDT 21(0xffffffff8000134c)
+IDT 22(0xffffffff80001358)
+IDT 23(0xffffffff80001364)
+IDT 24(0xffffffff80001370)
+IDT 25(0xffffffff8000137c)
+IDT 26(0xffffffff80001388)
+IDT 27(0xffffffff80001394)
+IDT 28(0xffffffff800013a0)
+IDT 29(0xffffffff800013ac)
+IDT 30(0xffffffff800013b8)
+IDT 31(0xffffffff800013c4)
+IDT 32(0xffffffff800013d0)
+IDT 33(0xffffffff800013dc)
+IDT 34(0xffffffff800013e8)
+IDT 35(0xffffffff800013f4)
+IDT 36(0xffffffff80001400)
+IDT 37(0xffffffff8000140c)
+IDT 38(0xffffffff80001418)
+IDT 39(0xffffffff80001424)
+IDT 40(0xffffffff80001430)
+IDT 41(0xffffffff8000143c)
+IDT 42(0xffffffff80001448)
+IDT 43(0xffffffff80001454)
+IDT 44(0xffffffff80001460)
+IDT 45(0xffffffff8000146c)
+IDT 46(0xffffffff80001478)
+IDT 47(0xffffffff80001484)
+IDT Installed (Limit: 0xfff Base: 0xffffffff80004200)
+
+RSDP Revision: 0
+RSDP Address: 0xffff8000000f6cb0
+RSDP Signature: "RSD PTR "
+RSDP OEM ID: "BOCHS ÿ"
+RSDT Signature: "RSDT"
